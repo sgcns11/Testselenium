@@ -10,6 +10,7 @@ public class TextBoxes {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\sghosh\\Seleniumdriver\\chromedriver\\chromedriver.exe");
 	    WebDriver driver=new ChromeDriver(); 
+	    
 	    String appurl= "https://adactinhotelapp.com/";
 	    driver.get(appurl);
 	    driver.findElement(By.id("username")).sendKeys("test");
